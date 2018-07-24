@@ -1,8 +1,8 @@
 module.exports = {
     'Demo test 1': function (browser) {
         browser
-            .url('http://domenicogemoli.com')
+            .url(browser.launchUrl)
             .waitForElementVisible('body')
-            .end()
+            .end();
     }
 };

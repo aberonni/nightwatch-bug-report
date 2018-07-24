@@ -1,17 +1,20 @@
 {
-  "name": "nightwatch-reporter-example",
+  "name": "nightwatch-bug-report",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "postinstall": "npx webdriver-manager update",
-    "test": "nightwatch"
+    "lint": "eslint .",
+    "test:1205": "nightwatch --config tests/1205/nightwatch.conf.js",
+    "test:1835": "nightwatch --config tests/1835/nightwatch.conf.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^1.0.6",
-    "webdriver-manager": "^12.0.6"
+    "chromedriver": "^2.40.0",
+    "nightwatch": "^1.0.8",
+    "selenium-server": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
   }
 }

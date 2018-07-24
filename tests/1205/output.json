@@ -1,0 +1,39 @@
+{
+    "passed": 1,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 1,
+    "errmessages": [],
+    "modules": {
+        "test2": {
+            "completed": {
+                "Demo test 2": {
+                    "passed": 1,
+                    "failed": 0,
+                    "errors": 0,
+                    "skipped": 0,
+                    "assertions": [
+                        {
+                            "message": "Element <body> was visible after 206 milliseconds.",
+                            "stackTrace": "",
+                            "fullMsg": "",
+                            "failure": false
+                        }
+                    ],
+                    "timeMs": 4746,
+                    "time": "4.746"
+                }
+            },
+            "skipped": [],
+            "time": "4.746",
+            "timestamp": "Tue, 24 Jul 2018 16:24:44 GMT",
+            "group": "",
+            "tests": 1,
+            "errmessages": [],
+            "failures": 0,
+            "errors": 0
+        }
+    },
+    "assertions": 1
+}
