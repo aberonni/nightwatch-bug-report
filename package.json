@@ -4,6 +4,7 @@
   "scripts": {
     "lint": "eslint .",
     "test:1205": "nightwatch --config tests/1205/nightwatch.conf.js",
+    "test:1780": "nightwatch --config tests/1780/nightwatch.conf.js",
     "test:1835": "nightwatch --config tests/1835/nightwatch.conf.js"
   },
   "keywords": [],
@@ -11,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^2.40.0",
-    "nightwatch": "^1.0.8",
+    "nightwatch": "1.0.8",
+    "nightwatch-custom-commands-assertions": "^1.1.1",
     "selenium-server": "^3.13.0"
   },
   "devDependencies": {
