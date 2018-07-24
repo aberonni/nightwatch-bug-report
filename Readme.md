@@ -11,6 +11,6 @@ Install dependencies with `yarn` first.
 
 ## Adding an issue
 
-:tada: PRs adding new issues are very much welcome!
+:tada: PRs reproducing new issues are very much welcome!
 
 To make things easier for everyone, please check [how to contribute](CONTRIBUTING.md) first.
