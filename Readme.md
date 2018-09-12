@@ -7,7 +7,6 @@ A collection of examples on how to reproduce [nightwatch issues](https://github.
 Install dependencies with `yarn` first.
 
 - [1205](https://github.com/nightwatchjs/nightwatch/issues/1205) - `yarn test:1205`
-- [1780](https://github.com/nightwatchjs/nightwatch/issues/1780) - `yarn test:1780`
 - [1835](https://github.com/nightwatchjs/nightwatch/issues/1835) - `yarn test:1835`
 
 ## Adding an issue
