@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Nightwatch test",
+            "program": "${workspaceRoot}/node_modules/nightwatch/bin/runner.js",
+            "stopOnEntry": false,
+            "args": [
+                "--config",
+                "tests/1205/nightwatch.conf.js",
+            ],
+            "runtimeExecutable": "node"
+        }
+    ]
+}
