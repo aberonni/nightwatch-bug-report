@@ -165,9 +165,9 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
-chai-nightwatch@~0.1.x:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/chai-nightwatch/-/chai-nightwatch-0.1.1.tgz#1ca56de768d3c0868fe7fc2f4d32c2fe894e6be9"
+chai-nightwatch@0.2.1:
+  version "0.2.1"
+  resolved "https://artifactory.booking.com:443/api/npm/npm/chai-nightwatch/-/chai-nightwatch-0.2.1.tgz#5cc8b2b005dfc0505722b6cfbea257f73de9bd70"
   dependencies:
     assertion-error "1.0.0"
     deep-eql "0.1.3"
@@ -1102,12 +1102,12 @@ nightwatch-custom-commands-assertions@^1.1.1:
   dependencies:
     easyimage "^1.2.2"
 
-nightwatch@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.0.8.tgz#b5e947183e09257960b71066536876c13b0651e4"
+nightwatch@^1.0.11:
+  version "1.0.11"
+  resolved "https://artifactory.booking.com:443/api/npm/npm/nightwatch/-/nightwatch-1.0.11.tgz#6829c1aa87f6e939ce77c64b35e1aef5d0ed5e62"
   dependencies:
     assertion-error "^1.1.0"
-    chai-nightwatch "~0.1.x"
+    chai-nightwatch "0.2.1"
     ejs "^2.5.9"
     lodash.clone "^3.0.3"
     lodash.defaultsdeep "^4.6.0"
