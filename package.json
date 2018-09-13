@@ -4,7 +4,8 @@
   "scripts": {
     "lint": "eslint .",
     "test:1205": "nightwatch --config tests/1205/nightwatch.conf.js",
-    "test:1835": "nightwatch --config tests/1835/nightwatch.conf.js"
+    "test:1835": "nightwatch --config tests/1835/nightwatch.conf.js",
+    "test:1882": "nightwatch --config tests/1882/nightwatch.conf.js"
   },
   "keywords": [],
   "author": "",
