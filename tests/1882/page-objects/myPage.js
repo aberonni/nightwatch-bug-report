@@ -1,5 +1,5 @@
 module.exports = {
-    elements: {
-        myElement: '#selector'
-    }
+  elements: {
+    myElement: '#selector'
+  }
 };
