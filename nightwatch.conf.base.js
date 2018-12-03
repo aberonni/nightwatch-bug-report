@@ -25,7 +25,7 @@ module.exports = {
       launch_url: 'http://localhost',
       screenshots: {
         enabled: true,
-        path: './screens',
+        path: './reports/screens',
         on_failure: true
       },
       desiredCapabilities: {
