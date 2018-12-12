@@ -9,6 +9,7 @@ Install dependencies with `yarn` first.
 - [1205](https://github.com/nightwatchjs/nightwatch/issues/1205) - `yarn test:1205`
 - [1835](https://github.com/nightwatchjs/nightwatch/issues/1835) - `yarn test:1835`
 - [1882](https://github.com/nightwatchjs/nightwatch/issues/1882) - `yarn test:1882`
+- [1940](https://github.com/nightwatchjs/nightwatch/issues/1940) - `yarn test:1940`
 
 ## Adding an issue
 
