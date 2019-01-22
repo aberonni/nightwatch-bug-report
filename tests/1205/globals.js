@@ -1,10 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+const assert = require('assert');
 
 module.exports = {
   reporter : function(results, cb) {
-    const file = path.join(__dirname, 'output.json');
-    fs.writeFileSync(file, JSON.stringify(results, null, 4), 'utf8');
+    const numberOfTests = Object.entries(results.modules).length;
+    console.log('Number of tests in reporter:', numberOfTests);
+    assert.equal(numberOfTests, 2, 'There are 2 tests in the report');
     cb();
   }
 };
